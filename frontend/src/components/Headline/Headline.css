@@ -1,6 +1,10 @@
 section { background-color: #472562; }
 
-img { min-height: 256px; }
+img { 
+  min-height: 256px; 
+  position: relative;
+  bottom: -1.1rem;
+}
 
 ul { 
   list-style: circle !important; 
