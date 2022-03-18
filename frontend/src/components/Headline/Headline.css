@@ -1,13 +1,19 @@
 section { background-color: #472562; }
 
-img { max-height: 360px; }
+img { min-height: 256px; }
 
 ul { 
   list-style: circle !important; 
   list-style-type: circle !important; 
 }
 
-@media screen and (max-width: 768px) {
+button {
+  border: 0 !important;
+  color: #FFFFFF !important;
+  background-color: #ff703d !important;
+}
+
+@media screen and (max-width: 1024px) {
   .headline-main {
     margin: 0 auto;
     text-align: center;

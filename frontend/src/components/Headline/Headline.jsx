@@ -8,7 +8,7 @@ import device from '../../static/images/device.png';
 function Headline () {
   return (
     <section>
-      <div className="columns">
+      <div className="columns my-0">
         <div className="column is-half is-offset-one-quarter">
           <div className="is-flex is-justify-content-space-between is-align-items-center">
             <div className="headline-main has-text-light">
@@ -22,10 +22,10 @@ function Headline () {
                 </ul>
               </p>
               <Link to="/contato">
-                <button className="button is-warning mb-2">Entre em contato</button>
+                <button className="button mb-2">Entre em contato</button>
               </Link>
             </div>
-            <div className="headline-image  is-hidden-touch">
+            <div className="headline-image is-hidden-touch">
               <img src={ device } alt="Device responsiviness" title="Implementando sistemas Responsivos" aria-hidden="true" />
             </div>
           </div>
