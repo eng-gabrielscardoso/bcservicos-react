@@ -6,8 +6,11 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Open-sans', monospace !important;
+  
 }
 
 html,
-body { overflow-x: hidden; }
+body { 
+  overflow-x: hidden;
+  font-family: 'Open-sans', monospace !important;
+}
