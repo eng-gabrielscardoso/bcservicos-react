@@ -5,3 +5,16 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+@media screen and (min-width: 1024px) {
+  .head {
+    margin-top: 170px;
+    margin-left: 200px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .head {
+    margin-top: 120px;
+  }
+}
