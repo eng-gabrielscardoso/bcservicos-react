@@ -1,17 +1,17 @@
 section.headline { background-color: #472562; }
 
-img { 
+img.device { 
   min-height: 256px; 
   position: relative;
   bottom: -1.1rem;
 }
 
-ul { 
+ul.specialities { 
   list-style: circle !important; 
   list-style-type: circle !important; 
 }
 
-button {
+button.contact-me {
   border: 0 !important;
   color: #FFFFFF !important;
   background-color: #ff703d !important;

@@ -15,18 +15,18 @@ function Headline () {
               <h2 className="is-capitalized is-size-4">Desenvolvemos sistemas únicos</h2>
               <p className="my-2">
                 Somos especialistas no desenvolvimento de
-                <ul>
+                <ul className="specialities">
                   <li>Sites</li>
                   <li>Lojas virtuais</li>
                   <li>ERP's</li>
                 </ul>
               </p>
               <Link to="/contato">
-                <button className="button mb-2">Entre em contato</button>
+                <button className="button mb-2 contact-me">Entre em contato</button>
               </Link>
             </div>
             <div className="headline-image is-hidden-touch">
-              <img src={ device } alt="Device responsiviness" title="Implementando sistemas Responsivos" aria-hidden="true" />
+              <img className="device" src={ device } alt="Device responsiviness" title="Implementando sistemas Responsivos" aria-hidden="true" />
             </div>
           </div>
         </div>
