@@ -1,0 +1,19 @@
+section { background-color: #472562; }
+
+img { max-height: 360px; }
+
+ul { 
+  list-style: circle !important; 
+  list-style-type: circle !important; 
+}
+
+@media screen and (max-width: 768px) {
+  .headline-main {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .headline-main p {
+    text-align: left;
+  }
+}
