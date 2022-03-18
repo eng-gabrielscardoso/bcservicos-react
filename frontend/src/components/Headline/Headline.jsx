@@ -7,7 +7,7 @@ import device from '../../static/images/device.png';
 
 function Headline () {
   return (
-    <section>
+    <section className="headline">
       <div className="columns my-0">
         <div className="column is-half is-offset-one-quarter">
           <div className="is-flex is-justify-content-space-between is-align-items-center">
