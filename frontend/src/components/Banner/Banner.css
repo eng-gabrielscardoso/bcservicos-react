@@ -1,0 +1,7 @@
+.banner {
+  min-height: 100vh;
+  background-image: url('../../static/images/banner.png');
+  background-size: conver;
+  background-position: center;
+  background-repeat: no-repeat;
+}

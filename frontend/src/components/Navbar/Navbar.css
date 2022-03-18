@@ -1,0 +1,7 @@
+.navbar,
+.navbar-menu,
+.navbar-item:hover { background-color: rgba(0, 0, 0, 0) !important; }
+
+.navbar-menu .navbar-item:hover { 
+  text-decoration: underline;
+}
