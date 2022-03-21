@@ -11,7 +11,7 @@ function Team () {
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, incidunt praesentium fugiat placeat corporis adipisci. Obcaecati temporibus, autem libero facilis sapiente ex! Atque repellendus temporibus, tenetur ducimus quae iste laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima incidunt temporibus, iure ullam amet laborum reprehenderit explicabo natus ut porro dolorum odio quia id consectetur delectus. Iusto distinctio assumenda repudiandae.
         </p>
       </div>
-      <div className="members columns is-mobile is-multiline is-centered">
+      <div className="members columns is-mobile is-multiline is-centered px-2">
         <div className="column is-narrow">
           <div class="card">
             <div class="card-content">
