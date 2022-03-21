@@ -4,7 +4,7 @@ import './Banner.css';
 
 import Navbar from '../Navbar/Navbar';
 
-function Banner () {
+function Banner (props) {
   return (
     <div className="banner">
       <header>
@@ -12,9 +12,9 @@ function Banner () {
         <div className="head">
           <div className="columns is-mobile is-centered m-4">
             <div className="column is-5-desktop is-12-mobile has-text-light">
-              <h2 className="is-size-2">Sistemas próprios para empresas autênticas</h2>
+              <h2 className="is-size-2">{props.mainTitle}</h2>
               <p>
-                Lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+                {props.subTitle}
               </p>
             </div>
           </div>

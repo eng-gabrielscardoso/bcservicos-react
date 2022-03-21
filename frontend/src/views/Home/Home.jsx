@@ -10,7 +10,7 @@ import Footer from '../../components/Footer/Footer';
 function Home () {
   return (
     <div className="home">
-      <Banner />
+      <Banner mainTitle="Sistemas Próprios Para Empresas Autênticas" subTitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend commodo ipsum, vitae malesuada nisi convallis eget." />
       <Headline />
       <Team />
       <Footer />
