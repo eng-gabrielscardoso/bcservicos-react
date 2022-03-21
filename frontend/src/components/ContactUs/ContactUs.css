@@ -1,0 +1,24 @@
+section.contact-us {
+  min-height: 100vh;
+  background-color: #472563;
+}
+
+.wrapper-contact-us {
+  min-height: 100vh;
+  gap: 0.75rem;
+  justify-content: center;
+  align-items: center;
+}
+
+button.contact-us {
+  border: 0 !important;
+  color: #FFFFFF !important;
+  background-color: #ff703d !important;
+}
+
+@media screen and (max-width: 769px) {
+  div .wrapper-contact-us {
+    flex-direction: column;
+    align-items: center;
+  }
+}
