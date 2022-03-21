@@ -41,7 +41,7 @@ function ContactUs () {
               <div class="control">
                 <label class="checkbox has-text-light">
                   <input type="checkbox" />
-                  Eu concordo com os termos de uso <a href="#" className="has-text-link">terms and conditions</a>
+                  Eu concordo com os termos de uso <a href="#" className="has-text-link">termos e condições</a>
                 </label>
               </div>
             </div>

@@ -10,6 +10,8 @@ section.contact-us {
   align-items: center;
 }
 
+.contact-form { max-width: 50%; }
+
 button.contact-us {
   border: 0 !important;
   color: #FFFFFF !important;
@@ -21,4 +23,6 @@ button.contact-us {
     flex-direction: column;
     align-items: center;
   }
+
+  .contact-form { max-width: 100%; }
 }
