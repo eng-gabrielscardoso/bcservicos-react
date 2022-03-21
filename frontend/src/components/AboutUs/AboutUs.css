@@ -1,0 +1,5 @@
+section.about-us {
+  margin: 0 auto;
+  max-width: 50%;
+  flex-wrap: wrap;
+}
