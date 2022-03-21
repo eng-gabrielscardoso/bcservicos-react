@@ -5,7 +5,7 @@ import './Footer.css';
 function Footer () {
   return (
     <footer>
-      <div className="is-flex is-justify-content-space-between is-fullwidth has-background-dark p-4 my-auto">
+      <div className="wrapper-footer is-flex is-justify-content-space-between is-fullwidth has-background-dark p-4 my-auto">
         <span className="has-text-light my-auto">&copy;Todos os direitos reservados</span>
         <span>
           <a className="has-text-light is-size-4 mr-2" href="https://github.com/eng-gabrielscardoso" target="_blank">
