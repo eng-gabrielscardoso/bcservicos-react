@@ -17,12 +17,12 @@ function ContactUs () {
           <form className="mt-2" method="POST">
             <div class="field">
               <div class="control">
-                <input class="input" type="text" placeholder="Nome completo *" aria-label="Informe o seu nome" required />
+                <input class="input" type="text" name="contactName" placeholder="Nome completo *" aria-label="Informe o seu nome" required />
               </div>
             </div>
             <div class="field">
               <div class="control has-icons-left has-icons-right">
-                <input class="input is-danger" type="email" placeholder="E-mail válido *" aria-label="Informe um e-mail válido" required />
+                <input class="input is-danger" type="email" name="contactEmail" placeholder="E-mail válido *" aria-label="Informe um e-mail válido" required />
                 <span class="icon is-small is-left">
                   <i class="fa fa-envelope"></i>
                 </span>
@@ -34,7 +34,7 @@ function ContactUs () {
             </div>
             <div class="field">
               <div class="control">
-                <textarea class="textarea" placeholder="Informe a sua mensagem *" aria-label="Informe a sua mensagem" required></textarea>
+                <textarea class="textarea" name="contactMessage" placeholder="Informe a sua mensagem *" aria-label="Informe a sua mensagem" required></textarea>
               </div>
             </div>
             <div class="field">
